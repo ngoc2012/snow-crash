@@ -110,3 +110,7 @@ Don't forget to launch getflag !
 flag00@SnowCrash:~$ getflag
 Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
 ```
+```bash
+su level01
+passord: x24ti5gi3x0ol2eh4esiuxias
+```
