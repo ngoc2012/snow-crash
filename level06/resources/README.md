@@ -1,9 +1,22 @@
 # level06
+## Introduction
 
+The use of /e in preg_replace is highly insecure and should be avoided. It allows arbitrary code execution. Use preg_replace_callback instead in modern PHP.
+
+Applies a regex with the /e modifier, which evaluates the replacement as PHP code (deprecated/removed in newer PHP versions due to security risks).
+
+It looks for [x something] and evaluates y("something").
+
+## Observations
 
 level06@SnowCrash:~$ ls
 level06  level06.php
 
+## Tried
+ltrace ./level06
+Output too long
+
+## Final solution
 level06@SnowCrash:~$ hexdump level06 -C
 ...
 000007d0  2e 73 6f 0a 00 2f 75 73  72 2f 62 69 6e 2f 70 68  |.so../usr/bin/ph|
