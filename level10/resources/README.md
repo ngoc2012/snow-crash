@@ -1,4 +1,4 @@
-# level09
+# level11
 ## Introduction
 
 ...
@@ -76,8 +76,8 @@ while True:
 ```
 
 ```bash
-touch /tmp/dum
-chmod 777 /tmp/dum
+touch dum
+chmod 777 dum
 chmod +x /tmp/exploit.py
 ```
 
